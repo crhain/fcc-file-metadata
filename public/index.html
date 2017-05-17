@@ -10,5 +10,37 @@
     </head>
     <body>      
         <h1>FCC File Metadata Service</h1>
+        <form id="fileForm" name="fileForm" enctype="multipart/form-data" action="/get-file-size" method="post" target="_parent">
+            <input type="file" id="fileInput" name="fileInput">
+            <button type="submit">Submit</button>
+        </form>        
+
+        <script>
+            /*
+            //This is example code for sending forms via XMLHttpRequest instead of via the built in form submit
+            var input = document.getElementById('fileInput');
+            var form = document.getElementById('fileForm');
+
+            form.addEventListener('submit', function(e){
+                //add some logic to make sure file is selected                
+                var file = input.files ? input.files[0] : null;                                
+                var oData = new FormData(form);
+                var oReq = new XMLHttpRequest();
+                oReq.open("POST", "/get-file-size", true);
+
+                oReq.onload = function(oEvent){
+                    if(oReq.status == 200){
+
+                    }else{
+
+                    }
+
+                    oReq.send(oData);
+                    e.preventDefault();
+                }
+            }, false); 
+            */                   
+        </script>
+
     </body>
 </html>

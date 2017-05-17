@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A simple service that returns filesize for uploaded files",
   "main": "index.js",
-  "engines":{ 
+  "engines": {
     "node": "7.8.0"
   },
   "directories": {
@@ -13,9 +13,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crhain/fcc-file-metadata.git"
+  },
   "author": "Carl Hain",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "multer": "^1.3.0"
   }
 }
