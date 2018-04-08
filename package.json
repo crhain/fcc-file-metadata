@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/crhain/fcc-file-metadata.git"
+    "url": "git+https://github.com/crhwebdev/fcc-file-metadata.git"
   },
   "author": "Carl Hain",
   "license": "MIT",
