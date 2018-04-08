@@ -1,5 +1,11 @@
+FREECODECAMP FILE METADATA SERVICE
+=========================================================
+
+This was created for a freeCodeCamp project. A working version can be found at [https://crh-file-metadata.herokuapp.com/](https://crh-file-metadata.herokuapp.com/)
+
+
 OBJECTIVES
-==========================================================
+-----------------------------------------------
 
 Objective: Build a full stack JavaScript app that is functionally similar to this: https://aryanj-file-size.herokuapp.com/ and deploy it to Heroku.
 
